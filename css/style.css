@@ -38,7 +38,8 @@ body {
   }
   
   .card .back {
-    background: url('../img/back-card.png') center no-repeat;
+    background: url('../img/back/red_back.png') center no-repeat;
+    background-size: contain;
   }
   
   .card .front {
@@ -46,8 +47,7 @@ body {
     transform: rotateY(180deg);
     font-size: 4rem;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #333;
-    color: #a70101;
+    color: rgba(0, 0, 0, 0);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -61,3 +61,56 @@ body {
   -o-transform: translateX(-100%) rotateY(-180deg);
   transform: translateX(-100%) rotateY(-180deg);
 }
+
+.card .front-1{background: url('../img/cards/1.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-2{background: url('../img/cards/2.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-3{background: url('../img/cards/3.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-4{background: url('../img/cards/4.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-5{background: url('../img/cards/5.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-6{background: url('../img/cards/6.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-7{background: url('../img/cards/7.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-8{background: url('../img/cards/8.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-9{background: url('../img/cards/9.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-10{background: url('../img/cards/10.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-11{background: url('../img/cards/11.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-12{background: url('../img/cards/12.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-13{background: url('../img/cards/13.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-14{background: url('../img/cards/14.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-15{background: url('../img/cards/15.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-16{background: url('../img/cards/16.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-17{background: url('../img/cards/17.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-18{background: url('../img/cards/18.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-19{background: url('../img/cards/19.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-20{background: url('../img/cards/20.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-21{background: url('../img/cards/21.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-22{background: url('../img/cards/22.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-23{background: url('../img/cards/23.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-24{background: url('../img/cards/24.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-25{background: url('../img/cards/25.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-26{background: url('../img/cards/26.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-27{background: url('../img/cards/27.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-28{background: url('../img/cards/28.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-29{background: url('../img/cards/29.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-30{background: url('../img/cards/30.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-31{background: url('../img/cards/31.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-32{background: url('../img/cards/32.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-33{background: url('../img/cards/33.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-34{background: url('../img/cards/34.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-35{background: url('../img/cards/35.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-36{background: url('../img/cards/36.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-37{background: url('../img/cards/37.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-38{background: url('../img/cards/38.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-39{background: url('../img/cards/39.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-40{background: url('../img/cards/40.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-41{background: url('../img/cards/41.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-42{background: url('../img/cards/42.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-43{background: url('../img/cards/43.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-44{background: url('../img/cards/44.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-45{background: url('../img/cards/45.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-46{background: url('../img/cards/46.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-47{background: url('../img/cards/47.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-48{background: url('../img/cards/48.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-49{background: url('../img/cards/49.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-50{background: url('../img/cards/50.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-51{background: url('../img/cards/51.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}
+.card .front-52{background: url('../img/cards/52.png') center no-repeat;background-size: contain;transform: rotateY(180deg);color: rgba(0,0,0,0);}

@@ -1,5 +1,3 @@
-
-
 let NB_CARDS = prompt("Combien de carte ?");
 
 
@@ -30,7 +28,8 @@ function game() {
   if (lastCard == null) {
     retournerCarte(this);
     lastCard=this;
-  } else if(lastCard.textContent == this.textContent){
+    this.removeEventListener('click', game,false);
+  } else if(lastCard.textContent == this.textContent && this !== lastCard){
     retournerCarte(this);
     lastCard.removeEventListener('click', game,false);
     this.removeEventListener('click',game,false);
@@ -43,6 +42,7 @@ function game() {
     setTimeout(() => {
       retournerCarte(this);
       retournerCarte(lastCard);
+      lastCard.addEventListener('click', game,false);
       lastCard=null;  
     }, 500);
   }
@@ -69,10 +69,10 @@ function copyCard(index) {
   
   card.classList.add('card', 'flipped'/*TMP*/);
   backCard.classList.add('back');
-  frontCard.classList.add('front');
+  frontCard.classList.add('front-'+cards[index].textContent);
   retournerCarte(card);
   cards.push(card);
-  card.querySelector('.front').textContent = cards[index].textContent;
+  card.querySelector('.front-'+cards[index].textContent).textContent = cards[index].textContent;
 
   document.querySelector('.wrapper').appendChild(card);
 }
@@ -80,14 +80,13 @@ function copyCard(index) {
 function createCard() {
   const card = document.createElement('div');
   const backCard = document.createElement('div');
-  const frontCard = document.createElement('div');
+  
   
   card.appendChild(backCard);
-  card.appendChild(frontCard);
+  
   
   card.classList.add('card', 'flipped'/*TMP*/);
   backCard.classList.add('back');
-  frontCard.classList.add('front');
   retournerCarte(card);
   cards.push(card);
   handleCard(cards[cards.length-1]);
@@ -98,14 +97,16 @@ function createCard() {
 function handleCard(card) {
   let randomNB;
   let table;
+  const frontCard = document.createElement('div');
 
   do {
     randomNB =Math.ceil(Math.random()*52);
-    
   }
   while (tabRandomNB.includes(randomNB));
   tabRandomNB.push(randomNB);
-  card.querySelector('.front').textContent = randomNB;
+  card.appendChild(frontCard);
+  frontCard.classList.add('front-'+randomNB);
+  card.querySelector('.front-'+randomNB).textContent = randomNB;
 }
 
 function retournerCarte(card){
