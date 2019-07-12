@@ -6,6 +6,9 @@ let NB_CARDS = prompt("Combien de carte ?");
 if(NB_CARDS % 2){
   NB_CARDS++;
 }
+if(NB_CARDS > 104){
+  NB_CARDS=104;
+}
 let pair=NB_CARDS/2;
 const cards = [];
 const tabRandomNB = [];
